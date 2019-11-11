@@ -145,7 +145,8 @@ h5,
 h6,
 li,
 blockquote,
-pre {
+pre,
+tr {
   font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
   font-size: 20px;
   font-style: normal;
@@ -321,4 +322,49 @@ footer {
   margin-top: 5%;
   padding: 1%;
   text-align: center;
+}
+.main {
+  margin: 0 auto;
+}
+.main h1 {
+  margin-top: 3%;
+  background: darkslategray;
+  color: ghostwhite;
+  text-align: center;
+  height: 50px;
+  padding-top: 1%;
+}
+.main .resumeboxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background: darkslategray;
+  color: ghostwhite;
+  padding-bottom: 1%;
+  padding-top: 1%;
+}
+.resumesections {
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 3%;
+  padding-top: 3%;
+  background: ghostwhite;
+  margin-top: 5px;
+}
+.resumesections h3 {
+  padding-bottom: 2%;
+}
+.resumesections table {
+  width: 100%;
+}
+.resumesections table tr {
+  width: 100%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+.resumesections table tr th {
+  text-align: left;
+}
+footer.resume {
+  margin-top: 5px;
 }

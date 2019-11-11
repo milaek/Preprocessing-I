@@ -57,7 +57,7 @@ html, body {
     height: 100%;
 }
 
-p, a, button, h1, h2, h3, h4, h5, h6, li, blockquote, pre {
+p, a, button, h1, h2, h3, h4, h5, h6, li, blockquote, pre, tr {
 	font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif; 
 	font-size: 20px; 
 	font-style: normal; 
@@ -215,7 +215,6 @@ body {
 			}
 		}
 	}
-	
 }
 .boxme {
 	display: flex;
@@ -252,3 +251,54 @@ footer {
 	padding: 1%;
 	text-align: center;
 }
+
+//resume page//
+
+.main {
+	margin: 0 auto;
+	h1 {
+		margin-top: 3%;
+		background: @backgroundthree;
+		color: @backgroundone;
+		text-align: center;
+		height: 50px;
+		padding-top: 1%;
+	}
+	.resumeboxes {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		background: @backgroundthree;
+		color: @backgroundone;
+		padding-bottom: 1%;
+		padding-top: 1%;
+	}
+}
+.resumesections {
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-bottom: 3%;
+	padding-top: 3%;
+	background: @backgroundone;
+	margin-top: 5px;
+	h3 {
+		padding-bottom: 2%;
+	}
+	table {
+		width: 100%;
+		tr{
+			width: 100%;
+			padding-top: 1%;
+			padding-bottom: 1%;
+			th {
+				text-align: left;
+			}
+		}
+	}
+}
+
+footer.resume {
+	margin-top: 5px;
+}
+
+
